@@ -1,0 +1,56 @@
+/* Grundlegende Stilgebung */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Stilgebung für die Wetter-Suche */
+#wetterSuche {
+    margin-bottom: 20px;
+}
+
+#wetterSuche h2 {
+    margin-bottom: 10px;
+}
+
+#sucheStadt {
+    padding: 10px;
+    margin-right: 10px;
+    width: calc(100% - 120px); /* Passt die Breite dynamisch an */
+    box-sizing: border-box; /* Stellt sicher, dass Padding und Border in der Breite enthalten sind */
+}
+
+#sucheButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#sucheButton:hover {
+    background-color: #0056b3;
+}
+
+/* Stilgebung für die Wetter-Anzeige */
+#wetterAnzeige {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#wetterDetails {
+    display: none; /* Initial versteckt, wird durch JavaScript sichtbar gemacht */
+}
